@@ -1,0 +1,26 @@
+main{
+    min-height: 100vh;
+    background-color: rgb(244, 249, 249);
+}
+
+p{
+    margin: 0;
+}
+
+.taskInput{
+    width: 25rem;
+}
+
+.todoForm{
+    background-color: rgb(198, 188, 188);
+}
+
+.singleTask{
+    background-color: rgb(155, 147, 161);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btns{
+    background-color: transparent;
+}
