@@ -16,8 +16,9 @@ p{
 }
 
 .singleTask{
+    overflow-wrap: break-word;
     background-color: rgb(155, 147, 161);
-    width: 100%;
+    width: 25rem;
     border-radius: 5px;
 }
 

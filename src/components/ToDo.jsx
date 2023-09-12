@@ -7,8 +7,7 @@ function Todo(){
     let [edit,setEdit] = useState()
 
     const addToList = (event)=>{
-        console.log(edit)
-        if(work.length < 4){
+        if(work.length < 4 || work[0]===' '){
             setError('Please Enter Valid Data')
         }
         else if(edit>=0){
